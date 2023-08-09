@@ -88,6 +88,24 @@ display: flex;
   font-size: 18px;
   margin: auto;
   border-top: 5px;
+}   
+
+.descripciones{
+  font-size: 16px;
+}
+.cuerpo{
+  font-size: 12px;
+}
+.footer{
+  text-align: center;
+  margin-bottom: 5%;
+}
+.items{
+  font-size: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #03264C;
 }
 @media (min-width: 361px){
   .desaparece{
@@ -150,6 +168,14 @@ display: flex;
 .agrupando-footer{
   display: flex;
   padding-top: 10px;
+}
+.agrupando-footer{
+  display: flex;
+  padding-top: 10px;
+}
+.acomodado{
+  margin: auto;
+  padding: 10px;
 }
 
 
