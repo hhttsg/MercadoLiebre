@@ -1,0 +1,277 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box ;
+}
+body {font-family: 'Edu SA Beginner', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+}
+/*=== fondo de la pagina===*/
+header{
+    background-color: #EAC926;
+    padding: 20px;
+}
+.top-header{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background-color: #ebebeb;
+    
+}
+.header{
+    display: flex;
+    background-color: white;
+    height: 50%;
+    border-radius: 5px;
+}
+
+
+/*===desapacere el login===*/
+.desaparece ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.desaparece a {
+    text-decoration: none;
+    color: #222222;
+    padding: 5px 0;
+    font-size: 17px;
+}
+.desaparece{
+    display: none;
+
+}
+/*===baner===*/
+.baner img{
+    width: 100%;
+}
+/*===logo-mercado===*/
+.logo-mercado-liebre{
+    height: 50%;
+    width: 73%;
+}
+.engloba-logo{
+display: flex;
+
+}
+/*===buscador===*/
+.buscador{
+    border: 0px;
+    width: 75%;
+    border-radius: 5px;
+}
+.icono-buscar{
+    background-color: white;
+    width: 2%;
+    margin: auto;
+}
+
+/*===metodo de pago===*/
+.descripciones-t{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.center-sub{ 
+   width: 100vw;
+}
+/*===menu===*/
+
+.items-menu{
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    border-top: 5px;
+}
+
+/*===tipografia===*/
+.titulares{
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+    color: #39b54a;;
+}
+.descripciones{
+    font-size: 16px;
+}
+.cuerpo{
+    font-size: 12px;
+}
+.nombreDelProducto{
+    font-size: 12px;
+    display: none;
+}
+/*===footer===*/
+.footer{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.items{
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #03264C;
+}
+/*===imagenes===*/
+.img{
+     margin-top: 10px;
+     width: 100%;
+     height: 55%;
+
+}
+/*===centrar main===*/
+.main-centro{
+    width: 90%;
+    margin: 0 auto;
+}
+/*===caracteristicas===*/
+.caracteristicas{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    background-color: white;
+}
+.juntar{
+    display: flex;
+}
+.juntar h4{
+    margin: 0 10px;
+}
+
+
+
+#camion{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+    #camion {
+    position: relative;}
+
+@media (min-width: 361px){
+    .desaparece{
+        display: block;
+    }
+    .nombreDelProducto{
+        display: block;
+    }
+    
+    .main-centro div {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }    
+    .items-menu{
+        display: none;
+    }
+    .top-header{
+        display: flex;
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+    }
+    .header{
+        width: 50%;
+    }
+    .descripciones-t{
+        margin: auto;
+    }
+    .desaparece{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .desaparece li{
+        margin: 0 6px;
+        padding-top: 10px;
+    }
+    
+    .dos-img{
+        display: flex;
+        
+    }
+    .dos-img div{
+        text-align: center;
+        align-items: center;
+        width: 47%;
+    }
+    .tablet-products{
+        border: 5px;
+        padding: 5px;
+        margin: 5px;
+    }
+    .cuatro-img{
+        margin: auto;
+    }
+    .logo-mercado-liebre{
+        width: 50%;
+        height: 70%;
+    }
+    .engloba-logo{
+        width: 100%;
+    }
+    }
+    @media(min-width:750px){
+        .cuatro-img{
+            display: flex;
+
+        }
+        .header{
+            height: 30px;
+            align-items: center;
+            width: 40%;
+        }
+        .top-header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .center-sub{
+            width: 30%;
+
+        }
+        .caracteristicas{
+            width: 100%;
+        }
+        .engloba-logo{
+            width: 70%;
+        }
+        .logo-mercado-liebre{
+            height: 80%;
+            width: 60%;
+        }
+        .desaparece ul{
+            display: flex;
+        }
+        .agrupando-footer{
+            display: flex;
+            padding-top: 10px;
+        }
+        .acomodado{
+            margin: auto;
+            padding: 10px;
+        }
+        
+        
+    }
+
+
+
+

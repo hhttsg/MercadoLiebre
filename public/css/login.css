@@ -1,0 +1,173 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing:border-box ;
+}
+body {font-family: 'Edu SA Beginner', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+}
+header{
+  background-color: #EAC926;
+  padding: 20px;
+}
+.top-header{
+  display: flex;
+  flex-wrap: wrap;
+}
+body{
+  background-color: #ebebeb;
+  
+}
+.header{
+  display: flex;
+  background-color: white;
+  height: 50%;
+  border-radius: 5px;
+}
+/*===desapacere el login===*/
+.desaparece ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.desaparece a {
+  text-decoration: none;
+  color: #222222;
+  padding: 5px 0;
+  font-size: 17px;
+}
+.desaparece{
+  display: none;
+
+}
+/*===baner===*/
+.baner img{
+  width: 100%;
+}
+/*===logo-mercado===*/
+.logo-mercado-liebre{
+  height: 50%;
+  width: 73%;
+}
+.engloba-logo{
+display: flex;
+
+}
+/*===buscador===*/
+.buscador{
+  border: 0px;
+  width: 75%;
+  border-radius: 5px;
+}
+.icono-buscar{
+  background-color: white;
+  width: 2%;
+  margin: auto;
+}
+
+/*===metodo de pago===*/
+.descripciones-t{
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.center-sub{ 
+ width: 100vw;
+}
+/*===menu===*/
+
+.items-menu{
+  background-color: #03264C;
+  color: #ffffff;
+  display: block;
+  max-width: 50px;
+  padding: 15px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+  border-top: 5px;
+}
+@media (min-width: 361px){
+  .desaparece{
+    display: block;
+}
+.items-menu{
+  display: none;
+}
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.header{
+  width: 50%;
+}
+.descripciones-t{
+  margin: auto;
+}
+.desaparece{
+  display: flex;
+  justify-content: space-between;
+}
+
+.desaparece li{
+  margin: 0 6px;
+  padding-top: 10px;
+}
+.logo-mercado-liebre{
+  width: 50%;
+  height: 70%;
+}
+.engloba-logo{
+  width: 100%;
+}
+}
+@media(min-width:750px){
+  .header{
+    height: 30px;
+    align-items: center;
+    width: 40%;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+}
+.center-sub{
+    width: 30%;
+}.engloba-logo{
+  width: 70%;
+}
+.logo-mercado-liebre{
+  height: 80%;
+  width: 60%;
+}
+.desaparece ul{
+  display: flex;
+}
+.agrupando-footer{
+  display: flex;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+label,input,select {
+    display: block;
+    margin-bottom: 10px;
+}
