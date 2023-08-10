@@ -10,15 +10,16 @@ font-family: 'Roboto', sans-serif;
 header{
   background-color: #EAC926;
   padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 180px;
 }
 .top-header{
   display: flex;
   flex-wrap: wrap;
 }
-body{
-  background-color: #ebebeb;
-  
-}
+
 .header{
   display: flex;
   background-color: white;
@@ -59,10 +60,11 @@ display: flex;
   border: 0px;
   width: 75%;
   border-radius: 5px;
+  margin: 0;
 }
 .icono-buscar{
   background-color: white;
-  width: 2%;
+  
   margin: auto;
 }
 
@@ -107,6 +109,12 @@ display: flex;
   margin-top: 10px;
   color: #03264C;
 }
+
+form{
+  margin: 180px auto 0;
+}  
+
+
 @media (min-width: 361px){
   .desaparece{
     display: block;
@@ -142,7 +150,17 @@ display: flex;
 .engloba-logo{
   width: 100%;
 }
+
+header{
+  height: 260px;
 }
+form{
+  margin-top: 260px;
+}
+
+}
+
+
 @media(min-width:750px){
   .header{
     height: 30px;
@@ -177,7 +195,15 @@ display: flex;
   margin: auto;
   padding: 10px;
 }
-
+label,input,select{
+  font-size: 20px;
+}
+header{
+  height: 210px;
+}
+form{
+  margin-top: 210px;
+}
 
 
 
@@ -189,11 +215,38 @@ display: flex;
 
 }
 form {
-    width: 300px;
-    margin: 0 auto;
+    width: 50%;
+    background-color: #ebebeb;
+    padding: 10px;
   }
   
 label,input,select {
-    display: block;
-    margin-bottom: 10px;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.control{
+  width: 70%;
+  border-radius: 5px;
+}
+.boton{
+  border-radius: 5px;
+  background-color: #0077CC;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boton:hover {
+  background-color: #0022AA; /
+}
+.items{
+  transition: color 0.3s;
+}
+.items:hover {
+  color: #EAC926;
 }

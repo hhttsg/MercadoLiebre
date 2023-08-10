@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/register.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Playfair+Display:wght@500&family=Roboto&display=swap" rel="stylesheet">
@@ -55,20 +55,17 @@
     </header>
     <main>
         <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text"name="nombre" required>
-        
-            <label for="apellido">Apellido:</label>
-            <input type="text"name="apellido" required>
-        
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text"name="nombre" required pattern=".{6,}" title="Ej:Santos Giron" placeholder="Ej:Santos Giron" class="control">
+            
             <label for="usuario">Nombre de Usuario:</label>
-            <input type="text"name="usuario" required>
+            <input type="text"name="usuario" required pattern=".{4,}" title="Ej:Santos" placeholder="Ej:Santos" class="control">
         
             <label for="fechaNacimiento">Fecha de Nacimiento:</label>
-            <input type="date"name="fechaNacimiento" required>
+            <input type="date"name="fechaNacimiento" required class="control">
         
             <label for="domicilio">Domicilio:</label>
-            <input type="text"name="domicilio" required>
+            <input type="text"name="domicilio" required pattern=".{5,}" title="Ej:La Quiaca" placeholder="Ej:La Quiaca" class="control">
         
             <label for="perfil">Perfil de Usuario:</label>
             <select name="perfil">
@@ -78,25 +75,25 @@
         
             <label>Categorías de Interés:</label>
         
-              <label><input type="checkbox" value="electro"> Electro</label>
-              <label><input type="checkbox" value="moda"> Moda</label>
-              <label><input type="checkbox" value="hogar"> Hogar</label>
-              <label><input type="checkbox" value="juguetes"> Juguetes</label>
-              <label><input type="checkbox" value="vidaSana"> Vida Sana</label>
+              <label><input type="checkbox" value="electro">  Electro</label>
+              <label><input type="checkbox" value="moda">  Moda</label>
+              <label><input type="checkbox" value="hogar">  Hogar</label>
+              <label><input type="checkbox" value="juguetes">  Juguetes</label>
+              <label><input type="checkbox" value="vidaSana">  Vida Sana</label>
         
             
         
             <label for="foto">Foto de Usuario:</label>
-            <input type="file" name="foto" accept="image/*">
+            <input type="file" name="foto" accept=".jpg" class="control">
         
             <label for="contrasena">Contraseña:</label>
-            <input type="password"name="contrasena" required>
+            <input type="password"name="contrasena" required pattern=".{8,}" title="Ingresa al menos 8 caracteres" placeholder="Ingresa almenos 8 caracteres" class="control">
         
             <label for="confirmarContrasena">Confirmar Contraseña:</label>
-            <input type="password"name="confirmarContrasena" required>
+            <input type="password"name="confirmarContrasena" required class="control">
         
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpiar Campos</button>
+            <button type="submit" class="boton">Enviar</button>
+            <button type="reset" class="boton">Limpiar Campos</button>
           </form>
 
     </main>
