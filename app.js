@@ -5,9 +5,8 @@ const path =require('path');
 const pathPublic= path.resolve(__dirname,'./public');
 app.use(express.static(pathPublic));
 
-app.listen(3000, ()=>{
-    console.log('servidor andando');
-});
+const port = process.env.port || 3001;
+app.listen(port, ()=>console.log('Servidor corriendoen el puerto ${port}'));
 
 app.get('/',(req,res)=>{
     res.sendFile(path.resolve(__dirname,'./views/home.html'));
@@ -18,9 +17,3 @@ app.get('/register',(req,res)=>{
 app.get('/login',(req,res)=>{
     res.sendFile(path.resolve(__dirname,'./views/login.html'));
 })
-function alLogin(){
-    location.href="login.html"
-}
-function alInicio(){
-    location.href="home.html"
-}
