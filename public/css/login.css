@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box ;
+  }
+  body {font-family: 'Edu SA Beginner', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+  }
+  header{
+    background-color: #EAC926;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 180px;
+  }
+  .top-header{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .header{
+    display: flex;
+    background-color: white;
+    height: 50%;
+    border-radius: 5px;
+  }
+  main{
+    background-color: #ebebeb;
+  }
+  /*===desapacere el login===*/
+  .desaparece ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .desaparece a {
+    text-decoration: none;
+    color: #222222;
+    padding: 5px 0;
+    font-size: 17px;
+  }
+  .desaparece{
+    display: none;
+  
+  }
+  /*===baner===*/
+  .baner img{
+    width: 100%;
+  }
+  /*===logo-mercado===*/
+  .logo-mercado-liebre{
+    height: 50%;
+    width: 73%;
+  }
+  .engloba-logo{
+  display: flex;
+  
+  }
+  /*===buscador===*/
+  .buscador{
+    border: 0px;
+    width: 75%;
+    border-radius: 5px;
+    margin: 0;
+  }
+  .icono-buscar{
+    background-color: white;
+    
+    margin: auto;
+  }
+  
+  /*===metodo de pago===*/
+  .descripciones-t{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .center-sub{ 
+   width: 100vw;
+  }
+  /*===menu===*/
+  
+  .items-menu{
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    border-top: 5px;
+  }   
+  
+  .descripciones{
+    font-size: 16px;
+  }
+  .cuerpo{
+    font-size: 12px;
+  }
+  .footer{
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .items{
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #03264C;
+  }
+  
+  form{
+    margin: 180px auto 0;
+  }  
+  
+  
+  @media (min-width: 361px){
+    .desaparece{
+      display: block;
+  }
+  .items-menu{
+    display: none;
+  }
+  .top-header{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+  }
+  .header{
+    width: 50%;
+  }
+  .descripciones-t{
+    margin: auto;
+  }
+  .desaparece{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .desaparece li{
+    margin: 0 6px;
+    padding-top: 10px;
+  }
+  .logo-mercado-liebre{
+    width: 50%;
+    height: 70%;
+  }
+  .engloba-logo{
+    width: 100%;
+  }
+  
+  header{
+    height: 260px;
+  }
+  form{
+    margin-top: 260px;
+  }
+  
+  }
+  
+  
+  @media(min-width:750px){
+    .header{
+      height: 30px;
+      align-items: center;
+      width: 40%;
+  }
+  .top-header{
+      display: flex;
+      justify-content: space-between;
+  }
+  .center-sub{
+      width: 30%;
+  }.engloba-logo{
+    width: 70%;
+  }
+  .logo-mercado-liebre{
+    height: 80%;
+    width: 60%;
+  }
+  .desaparece ul{
+    display: flex;
+  }
+  .agrupando-footer{
+    display: flex;
+    padding-top: 10px;
+  }
+  .agrupando-footer{
+    display: flex;
+    padding-top: 10px;
+  }
+  .acomodado{
+    margin: auto;
+    padding: 10px;
+  }
+  label,input,select{
+    font-size: 20px;
+  }
+  header{
+    height: 210px;
+  }
+  form{
+    margin-top: 210px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  form {
+      width: 50%;
+      padding: 10px;
+      background-color: #ffffff;
+    
+    }
+    
+  label,input {
+      display: flex;
+      margin: 10px;
+      align-items: center;
+  }
+  .control{
+    width: 70%;
+    border-radius: 5px;
+  }
+  .boton{
+    border-radius: 5px;
+    background-color: #0077CC;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .boton:hover {
+    background-color: #0022AA; /
+  }
+  .items{
+    transition: color 0.3s;
+  }
+  .items:hover {
+    color: #EAC926;
+  }
